@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food | Lunch | Dinner | Appetizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Food | Lunch | Dinner | Appetizer</h1>
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input type="text" id="search" placeholder="Search by name" />
+          <button class="search-btn" type="submit">
+            <img src="./assets/Icons/Icon feather-search.png" alt="search" />
+          </button>
+        </form>
+      </div>
+      <div id="result-heading"></div>
+      <div id="meals" class="meals"></div>
+      <div class="modal-container" id="modal"></div>
+      <!-- <div class="modal-container" id="modal">
+        <div class="modal">
+          <button class="close-btn" id="close">
+            X
+          </button>
+          <div class="modal-header">
+            <span>header</span>
+          </div>
+          <div class="modal-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              inventore?
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
