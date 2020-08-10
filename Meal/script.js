@@ -7,7 +7,9 @@ const modal = document.getElementById("modal");
 
 // const url = "http://starlord.hackerearth.com/recipe";
 const url =
-  "https://github.com/himanshugawari/himanshugawari.github.io/blob/master/Meal/assets/data/recipe.json";
+  "https://raw.githubusercontent.com/himanshugawari/himanshugawari.github.io/master/Meal/assets/data/recipe.json";
+// const url =
+//   "https://github.com/himanshugawari/himanshugawari.github.io/blob/master/Meal/assets/data/recipe.json";
 
 const details = [];
 
