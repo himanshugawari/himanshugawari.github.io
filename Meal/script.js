@@ -5,7 +5,9 @@ const resultHeading = document.getElementById("result-heading");
 const modal = document.getElementById("modal");
 // const closeBtn = document.getElementById("close");
 
-const url = "http://starlord.hackerearth.com/recipe";
+// const url = "http://starlord.hackerearth.com/recipe";
+const url =
+  "https://github.com/himanshugawari/himanshugawari.github.io/blob/master/Meal/assets/data/recipe.json";
 
 const details = [];
 
